@@ -1,38 +1,42 @@
 .App {
+  display:flex;
+  flex-direction:column;
   text-align: center;
+  height:100vh;
+  background-image:url("../public/backgroundMrrobot.jpg");
+  background-size:cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color:white;
+  text-shadow: 1px 1px 1px red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@keyframes rodandoLegal {
+  from{transform: rotate(0deg)}
+  to{transform:rotate(360deg)}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+#headerDiv{
+  justify-content: space-around;
+  display:flex;
+  overflow: hidden;
+
+}
+
+.imgzinhas{
+  width:50px;
+  height:80px;
+  animation: spinningHaha linear 5s infinite;
+}
+
+@keyframes spinningHaha{
+  from {transform:rotate(0deg)}
+  to {transform:rotate(360deg)}
+}
+
+middle{
+  display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

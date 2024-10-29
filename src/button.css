@@ -1,0 +1,38 @@
+.satanButton{
+    color:purple;
+    border-radius: 5px;
+    border: 2px solid purple;
+    display:inline-block;
+}
+
+p{
+    color:white;
+    text-shadow: 1px 1px 1px purple;
+    margin-bottom:0;
+    margin-top:30px;
+}
+
+.satanButton:hover{
+    background-color:black;
+    color:red;
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+#divPattern{
+    margin:0;
+    color:green;
+    text-shadow: 1px 1px 1px red;
+    animation: vaievem 5s linear infinite;
+    display:inline-block;
+}
+
+
+
+@keyframes vaievem {
+    0%{transform:translateX(0px)}
+    25%{transform:translateX(50px)}
+    50%{transform:translateX(0px)}
+    75%{transform:translateX(-50px)}
+    100%{transform:translateX(0px)}
+}

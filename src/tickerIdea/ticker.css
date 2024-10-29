@@ -1,0 +1,18 @@
+.ConteinerTicker{
+    background-color:black;
+    width:100%;
+    overflow:hidden;
+    color:red;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Ticker{
+    animation: tickerslide 15s linear infinite;
+    font-size:10pt;
+}
+
+@keyframes tickerslide{
+    from {transform:translateX(0%)}
+    to {transform:translateX(-50%)}
+}
