@@ -2,14 +2,14 @@
     background-color:black;
     width:100%;
     overflow:hidden;
-    color:red;
+    color:rgb(197, 96, 255);
     white-space: nowrap;
-    display: inline;
 }
 
 .Ticker{
     animation: tickerslide 15s linear infinite;
-    font-size:10pt;
+    display:inline-block;
+    font-size:20pt;
 }
 
 @keyframes tickerslide{

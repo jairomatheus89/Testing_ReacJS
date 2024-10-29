@@ -50,7 +50,7 @@ function Button(){
       onMouseLeave={mouseSaindo}
       onClick={clicandinho}
     >
-      {text}
+      <span className='text'>{text}</span>
     </button>
   );
 }
