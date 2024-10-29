@@ -1,6 +1,6 @@
 import './App.css';
 import './button.css';
-import react, { useState } from "react";
+import { useState } from "react";
 import DivPattern from './divPattern.js';
 import orochimaru from './img/orochimaru.png';
 import painzin from './img/painn.png';
